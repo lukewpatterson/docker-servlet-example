@@ -7,10 +7,10 @@
     <artifactId>docker-servlet-example</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>myapp</name>
+    <name>${project.artifactId}}</name>
 
     <build>
-        <finalName>myapp</finalName>
+        <finalName>${project.artifactId}}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
