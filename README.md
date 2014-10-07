@@ -9,6 +9,6 @@ mvn archetype:generate                                  \
   -DarchetypeArtifactId=jersey-quickstart-webapp        \
   -DarchetypeVersion=2.13                               \
   -DgroupId=com.mycompany                               \
-  -DartifactId=myapp                                    \
+  -DartifactId=docker-servlet-example                   \
   -DinteractiveMode=false
 ```
